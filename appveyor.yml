@@ -9,5 +9,5 @@ install:
   - cd de4dot
   - git submodule update --init --recursive
 artifacts:
-  - path: Release/bin/
+  - path: Release/
     name: Release
