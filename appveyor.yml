@@ -9,7 +9,7 @@ install:
   - cd de4dot
   - git submodule update --init --recursive
 artifacts:
-  - path: Release.zip
+  - path: C:\projects\de4dot\Release\bin\Release.zip
     name: Release
 after_build:
-  - 7z a Release.zip C:\projects\de4dot\dnlib\Release\bin\*.*
+  - 7z a Release.zip C:\projects\de4dot\Release\bin\*.*
