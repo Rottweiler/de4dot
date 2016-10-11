@@ -11,5 +11,5 @@ install:
 artifacts:
   - path: Release.zip
     name: Release
-after build:
+after_build:
   - 7z a Release.zip \Release\*.*
