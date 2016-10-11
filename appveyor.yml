@@ -8,3 +8,8 @@ build:
 install:
   - cd de4dot
   - git submodule update --init --recursive
+artifacts:
+  - path: Release.zip
+    name: Release
+after build:
+  - 7z a Release.zip \Release\*.*
