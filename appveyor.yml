@@ -1,0 +1,11 @@
+version: 1.0.{build}
+image: Visual Studio 2013
+configuration: Release
+platform: AnyCPU
+build:
+  project: /de4dot.sln
+  verbosity: minimal
+install:
+  git clone https://github.com/0xd4d/de4dot.git
+  cd de4dot
+  git submodule update --init --recursive
