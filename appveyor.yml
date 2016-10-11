@@ -12,4 +12,4 @@ artifacts:
   - path: Release.zip
     name: Release
 after_build:
-  - 7z a Release.zip /Release/*.*
+  - 7z a Release.zip C:\projects\de4dot\dnlib\Release\bin\*.*
