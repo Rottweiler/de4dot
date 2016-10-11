@@ -1,3 +1,5 @@
+# de4dot [![Unix-like Build Status](https://travis-ci.org/Rottweiler/de4dot.png?branch=master)](https://travis-ci.org/Rottweiler/de4dot) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/5jl55ftu694o5ceh/branch/master?svg=true)](https://ci.appveyor.com/project/Rottweiler/de4dot/branch/master) [![Coverage Status](https://coveralls.io/repos/Rottweiler/de4dot/badge.png?branch=master)](https://coveralls.io/r/Rottweiler/de4dot?branch=master)
+
 Description
 ===========
 
