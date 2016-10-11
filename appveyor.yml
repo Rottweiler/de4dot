@@ -11,5 +11,3 @@ install:
 artifacts:
   - path: Release/bin/
     name: Release
-after_build:
-  - 7z a Release.zip C:\projects\de4dot\Release\bin\*.*
